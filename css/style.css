@@ -1,1 +1,38 @@
 /* my first css */
+
+body {
+    font-family: cursive;
+    background-color: rgb(220, 255, 181);
+}
+
+img {
+    border: 10px solid black;
+}
+
+h1 {
+    border: 2px dotted black;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+
+}
+
+cite {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.fantasyFont {
+    font-family:fantasy;
+    font-size: 1.7rem;
+}
+
