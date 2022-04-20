@@ -6,7 +6,7 @@ body {
 }
 
 img {
-    border: 10px solid black;
+    border: 10px dotted blue;
 }
 
 h1 {
@@ -36,3 +36,8 @@ cite {
     font-size: 1.7rem;
 }
 
+a:link {
+    font-weight: bold;
+    text-decoration: wavy;
+    color: green;
+}
