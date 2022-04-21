@@ -2,16 +2,13 @@
 
 body {
     font-family: cursive;
-    background-color: rgb(220, 255, 181);
+    background-color:#F43086; 
 }
 
-img {
-    border: 10px dotted blue;
+img, h1 {
+    border: 5px dotted #05B6C5;
 }
 
-h1 {
-    border: 2px dotted black;
-}
 
 blockquote {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,8 +33,36 @@ cite {
     font-size: 1.7rem;
 }
 
-a:link {
+ul a:link {
     font-weight: bold;
     text-decoration: wavy;
-    color: green;
+    color: #FF89B4;
+}
+
+a:visited {
+    color: #f5f4f4;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    background-color: #0a0a0a;
+}
+
+a.UM:link {
+    color:#F47321;
+}
+a.PSU:link {
+    color:#041E42;
+}
+
+a.UA:link {
+    color: #9E1B32;
+}
+
+
+a.UNC:link {
+    color: #7BAFD4;
 }
